@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T07:31:36.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="CYFitFwpoyPN3sNjpWfS" version="15.8.7" type="github"><diagram id="7F-vJ0oCNz7WSW2u7nIj" name="Page-1">zVdtb5swEP41SOuHTbwkafNxTdpN2iKti6a2Hx18BS+ODxlTyH79DjABQhpl2tZUioTvwXfmHj93dpxgtik+aZbEC+QgHd/lhRPMHd/3Rr7vlD+Xb2vkcjyqgUgLbie1wFL8Agu6Fs0Eh7Q30SBKI5I+GKJSEJoexrTGvD/tCWV/1YRFMACWIZND9F5wE9folX/Z4p9BRHGzsjeZ1m82rJlsM0ljxjHvQMGNE8w0oqlHm2IGsiSv4aX2u33h7e7DNChzikNxextfKZXeffm+kHce/Jgvlu89G+aZycxmbL/WbBsKgBMj1lSo6HGtMVMcysAuWahNjBEqJr8iJgR6BP4EY7Z2P1lmkKDYbKR9mxqNa5ihRE0IhyeWScriul68XPHFLC2UYqZDOJaaVQvTEZhj89rNIBUDbsDoLTlqkMyI5/6HMCunaDevZZwGlvQ/2YAB/5wZtmIpDPahT3oeCwPLhFUc5FR8fYJtWNAGiuNUDjO3DkFTqrZ0/alVct4WgteoO+4UwcT9T2T5A7Jy1GvQjj+p1LMqR1E5esdpBm2+2FQPLDsJqYAaAAC/ODA/F5QSsbMlKauLN8e9Nz4395ev0hegEOahM34sQ30YW2te2MiVsW0MRfk9dI2OV2m2bpXV+P3DXjM5tdecs9VMBtUjVJKZNj/fVVQdtH22YtJsFWqxOn8n8hpVv5lOND3h2FT8Y3kBISuULE1FWJ17TJsh3KGrz+1L5yRdJpJyHSnUulcCreofmzI6UgJNubUl9titsIPldoYj2j+sjs7ujw9sfoOdXF12hW8olGnF54/2xLcvqjpN69W9gO0Hmu4F8vYC1TwMAlUC3aX9F1cNdyDaNCYhkpt6wkNnIqzOfxKOX/EWQmZ7H69pb//VBDe/AQ==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-21T11:58:03.828Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="22IPPYbS1TlgSPMG4v3j" version="16.0.0" type="github">
+  <diagram id="7F-vJ0oCNz7WSW2u7nIj" name="Page-1">
+    <mxGraphModel dx="1183" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe5ghWMKUx0X7gdQOF4k-1" target="Oe5ghWMKUx0X7gdQOF4k-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-1" value="使用命令行启动&lt;br&gt;可带参数" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe5ghWMKUx0X7gdQOF4k-2" target="Oe5ghWMKUx0X7gdQOF4k-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-2" value="初始化&lt;br&gt;根据参数设定初始值" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe5ghWMKUx0X7gdQOF4k-4" target="Oe5ghWMKUx0X7gdQOF4k-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-4" value="从源列表读取源" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe5ghWMKUx0X7gdQOF4k-6" target="Oe5ghWMKUx0X7gdQOF4k-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-6" value="根据源进行解析，并生成md文档" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-10" value="结束" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe5ghWMKUx0X7gdQOF4k-12" target="Oe5ghWMKUx0X7gdQOF4k-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-12" value="此处需要getopt模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe5ghWMKUx0X7gdQOF4k-13" target="Oe5ghWMKUx0X7gdQOF4k-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-13" value="参数、源列表都需要存入ini文件&lt;br&gt;需要configparser文件" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-15" value="需要feedparser模块" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-21" value="需要一个小小的日志系统，记录程序运行中的所有输出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-22" value="生成的md文档应配合hexo格式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe5ghWMKUx0X7gdQOF4k-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
