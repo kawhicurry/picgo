@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-04T09:53:44.008Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="Gys4tACBrs96_kzDG-gV" version="19.0.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-29T15:37:49.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36 Edg/103.0.1264.37" etag="AW9W8jdXy9_a3EKQTABt" version="20.0.4" type="github" pages="4">
   <diagram id="hs4czZ4O0DfGnKWhVA0j" name="架构一">
-    <mxGraphModel dx="2062" dy="1158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -477,6 +477,73 @@
         </mxCell>
         <mxCell id="kpox1jkUDJXgeX1btoVU-5" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;01入口机&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;glass=0;dashed=1;fontSize=15;" vertex="1" parent="cj8mD5uRkSTfSycMUvEn-1">
           <mxGeometry x="450" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tMg_a4KMBgfLikDxA9G0" name="网络模型">
+    <mxGraphModel dx="1021" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6yeY_-AUNux_HMHpDT62-13" value="发送请求至虚拟ip" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6yeY_-AUNux_HMHpDT62-11" target="6yeY_-AUNux_HMHpDT62-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-11" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-15" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6yeY_-AUNux_HMHpDT62-12" target="6yeY_-AUNux_HMHpDT62-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-18" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6yeY_-AUNux_HMHpDT62-12" target="6yeY_-AUNux_HMHpDT62-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-12" value="学校防火墙" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-20" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6yeY_-AUNux_HMHpDT62-14" target="6yeY_-AUNux_HMHpDT62-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-22" value="将报文的虚拟ip修改为k8s集群的真实ip" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6yeY_-AUNux_HMHpDT62-14" target="6yeY_-AUNux_HMHpDT62-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-14" value="负载均衡器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-17" value="对该请求进行检测&lt;br&gt;对虚拟ip的端口限制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-19" value="响应虚拟ip&lt;br&gt;转发至k8s集群" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-24" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6yeY_-AUNux_HMHpDT62-21" target="6yeY_-AUNux_HMHpDT62-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-26" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6yeY_-AUNux_HMHpDT62-21" target="6yeY_-AUNux_HMHpDT62-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-21" value="K8s集群中的&lt;br&gt;ingress-controller" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-23" value="根据请求的url转发至对应的服务上" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-28" value="回应请求" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6yeY_-AUNux_HMHpDT62-25" target="6yeY_-AUNux_HMHpDT62-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="630" />
+              <mxPoint x="440" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-25" value="k8s中的服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="440" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="6yeY_-AUNux_HMHpDT62-30" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;k8s集群内部&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="610" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
