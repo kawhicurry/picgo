@@ -1,5 +1,6 @@
 from ImageGoNord import GoNord
 import datetime
+import pathlib
 import sys
 import os
 
@@ -7,7 +8,10 @@ import os
 # E.g. Replace pixel by pixel
 go_nord = GoNord()
 
-output_dir = "../gallery/nord/"
+root_path = pathlib.Path(__file__).parent.parent.resolve()
+print(root_path)
+source_dir = pathlib.Path(root_path, "gallery/original/")
+output_dir = pathlib.Path(root_path, "gallery/nord/")
 
 
 def image_go_nord(source_dir, filename):
@@ -32,11 +36,7 @@ def parse_all_source_file(source_dir):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        source_dir = sys.argv[1]
-    else:
-        source_dir = "../gallery/original/"
-        parse_all_source_file(source_dir)
+    parse_all_source_file(source_dir)
     print()
     for file in os.listdir(output_dir):
         print("    - https://cdn.jsdelivr.net/gh/kawhicurry/picgo/gallery/nord/" + file)
